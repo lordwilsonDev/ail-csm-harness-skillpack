@@ -21,6 +21,7 @@ A chain of 20 short instructions (skills) your AI follows in order before it han
 - `RUN-001-F3-video-claims.md`: checking every claim in a short video before posting. Found a real mismatch.
 - `RUN-002-gh-binary-inventory.md`: the chain plus the leanrea skill on an installed program. All 161 dependencies matched the source.
 - `RUN-003-live-test-and-savings.md`: watching the same program while it runs, plus what a first-pass inventory costs compared with paid consulting (sourced, with the limits stated).
+- `RUN-004-sow-deliverables-run.md`: take a consultant's promised deliverables (a real public scope of work), turn them into tests, and see which ones the chain can produce and which need access or a signature.
 
 ## Extra: leanrea (reverse engineering skill)
 `extras/leanrea/` holds a small third-party skill by AICodeKing (MIT license, credited, unmodified) that teaches your AI to take apart shipped software with plain command-line tools. Use it only on software you own or have permission to analyze. It runs separately from the 20-step chain; point your AI at `extras/leanrea/SKILL.md` when you have a reverse-engineering task. Source and details: `extras/leanrea/SOURCE.md`.

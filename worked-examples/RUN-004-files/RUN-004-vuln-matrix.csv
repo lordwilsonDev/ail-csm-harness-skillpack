@@ -1,0 +1,127 @@
+component,version_in_binary,advisory_id,severity_if_rated,cve,summary,fixed_in,merged_group
+github.com/docker/cli,29.0.3+incompatible,GHSA-p436-gjf2-799p,HIGH,CVE-2025-15558,Docker CLI Plugins: Uncontrolled Search Path Element Leads to Local Privilege Escalation on Windows,29.2.0,GHSA-p436-gjf2-799p
+github.com/docker/cli,29.0.3+incompatible,GO-2026-4610,UNRATED,CVE-2025-15558,Docker CLI Plugins: Uncontrolled Search Path Element Leads to Local Privilege Escalation on Windows in github.,29.2.0+incompatible,GHSA-p436-gjf2-799p
+github.com/docker/distribution,2.8.3+incompatible,GHSA-685w-q87j-wqw3,MODERATE,CVE-2026-85747,Distribution: Client `manifests.Get()` does not verify returned content against requested digest,,GHSA-685w-q87j-wqw3
+github.com/in-toto/in-toto-golang,0.9.0,GHSA-pmwq-pjrm-6p5r,MODERATE,,in-toto-golang and in-toto-python have inconsistent negation behavior,0.11.0,GHSA-pmwq-pjrm-6p5r
+github.com/in-toto/in-toto-golang,0.9.0,GO-2026-5547,UNRATED,,in-toto-golang and in-toto-python have inconsistent negation behavior in github.com/in-toto/in-toto-golang,0.11.0,GHSA-pmwq-pjrm-6p5r
+github.com/klauspost/compress,1.18.1,GO-2026-5841,UNRATED,CVE-2026-63209,OOB read in github.com/klauspost/compress/s2,1.18.7,GO-2026-5841
+github.com/sigstore/rekor,1.5.0,GHSA-47q9-m4ww-924m,HIGH,CVE-2026-48702,Rekor has an OOM Condition due to Unbounded gzip Decompression in Alpine APK Parsing Logic,1.5.2,GHSA-47q9-m4ww-924m
+github.com/sigstore/rekor,1.5.0,GO-2026-5778,UNRATED,CVE-2026-48702,Rekor has an OOM Condition due to Unbounded gzip Decompression in Alpine APK Parsing Logic in github.com/sigst,1.5.2,GHSA-47q9-m4ww-924m
+github.com/sigstore/sigstore-go,1.1.4,GHSA-9vcr-p3rj-q5q6,MODERATE,CVE-2026-49834,sigstore-go has a multi-log threshold bypass via single compromised log,1.2.0,GHSA-9vcr-p3rj-q5q6
+github.com/sigstore/sigstore-go,1.1.4,GHSA-wqqc-jjcq-vfxm,LOW,CVE-2026-54787,sigstore-go fails to check signature timestamps against a signing key's validity period,1.2.1,GHSA-wqqc-jjcq-vfxm
+github.com/sigstore/sigstore-go,1.1.4,GO-2026-5952,UNRATED,CVE-2026-49834,sigstore-go has a multi-log threshold bypass via single compromised log in github.com/sigstore/sigstore-go,1.2.0,GHSA-9vcr-p3rj-q5q6
+github.com/sigstore/sigstore-go,1.1.4,GO-2026-6162,UNRATED,CVE-2026-54787,sigstore-go fails to check signature timestamps against a signing key's validity period in github.com/sigstore,1.2.1,GHSA-wqqc-jjcq-vfxm
+github.com/sigstore/timestamp-authority/v2,2.0.3,GHSA-9c54-x2g4-v92j,MODERATE,CVE-2026-49835,Sigstore Timestamp Authority has OOM due to unbounded metric label cardinality,2.1.0,GHSA-9c54-x2g4-v92j
+github.com/sigstore/timestamp-authority/v2,2.0.3,GHSA-xm5m-wgh2-rrg3,MODERATE,CVE-2026-39984,Sigstore Timestamp Authority has Improper Certificate Validation in verifier,2.0.6,GHSA-xm5m-wgh2-rrg3
+github.com/sigstore/timestamp-authority/v2,2.0.3,GO-2026-5763,UNRATED,CVE-2026-39984,Sigstore Timestamp Authority has Improper Certificate Validation in verifier in github.com/sigstore/timestamp-,2.0.6,GHSA-xm5m-wgh2-rrg3
+github.com/sigstore/timestamp-authority/v2,2.0.3,GO-2026-5851,UNRATED,CVE-2026-49835,Sigstore Timestamp Authority has OOM due to unbounded metric label cardinality in github.com/sigstore/timestam,2.1.0,GHSA-9c54-x2g4-v92j
+github.com/yuin/goldmark,1.7.16,GO-2026-5320,UNRATED,CVE-2026-5160,Cross-site Scripting (XSS) in github.com/yuin/goldmark,1.7.17,GO-2026-5320
+go.mongodb.org/mongo-driver,1.17.6,GHSA-cp6g-7hqx-qxhp,MODERATE,CVE-2026-2303,mongo-go-driver has Heap Out-of-Bounds Read in GSSAPI Error Handling,1.17.7,GHSA-cp6g-7hqx-qxhp
+go.mongodb.org/mongo-driver,1.17.6,GO-2026-5327,UNRATED,CVE-2026-2303,Mongo-go-driver: Heap Out-of-Bounds Read in GSSAPI Error Handling in go.mongodb.org/mongo-driver,1.17.7,GHSA-cp6g-7hqx-qxhp
+go.opentelemetry.io/otel,1.38.0,GHSA-mh2q-q3fh-2475,HIGH,CVE-2026-29181,OpenTelemetry-Go: multi-value `baggage` header extraction causes excessive allocations (remote dos amplificati,1.41.0,GHSA-mh2q-q3fh-2475
+go.opentelemetry.io/otel,1.38.0,GO-2026-5506,UNRATED,CVE-2026-29181,OpenTelemetry-Go: Multi-value baggage header extraction causes excessive allocations in go.opentelemetry.io/ot,1.41.0,GHSA-mh2q-q3fh-2475
+golang.org/x/crypto,0.48.0,GHSA-45gg-vh54-h5m9,MODERATE,CVE-2026-39828,golang.org/x/crypto vulnerable to invoking bypass of certificate restrictions,0.52.0,GHSA-45gg-vh54-h5m9
+golang.org/x/crypto,0.48.0,GHSA-5cgq-3rg8-m6cv,CRITICAL,CVE-2026-42508,golang.org/x/crypto vulnerable to auth bypass via unenforced @revoked status,0.52.0,GHSA-5cgq-3rg8-m6cv
+golang.org/x/crypto,0.48.0,GHSA-78mq-xcr3-xm33,MODERATE,CVE-2026-39835,golang.org/x/crypto is vulnerable to invoking server panic during CheckHostKey/Authenticate flow,0.52.0,GHSA-78mq-xcr3-xm33
+golang.org/x/crypto,0.48.0,GHSA-89gr-r52h-f8rx,CRITICAL,CVE-2026-39831,golang.org/x/crypto: FIDO/U2F security key physical presence check can be bypassed,0.52.0,GHSA-89gr-r52h-f8rx
+golang.org/x/crypto,0.48.0,GHSA-9m57-25v3-79x9,MODERATE,CVE-2026-46598,golang.org/x/crypto: Invoking pathological inputs can lead to client panic,0.52.0,GHSA-9m57-25v3-79x9
+golang.org/x/crypto,0.48.0,GHSA-f5wc-c3c7-36mc,CRITICAL,CVE-2026-39832,golang.org/x/crypto doesn't drop invoking agent constraints when forwarding keys,0.52.0,GHSA-f5wc-c3c7-36mc
+golang.org/x/crypto,0.48.0,GHSA-jppx-rxg9-jmrx,CRITICAL,CVE-2026-39833,golang.org/x/crypto doesn't enforce invoking key constraints,0.52.0,GHSA-jppx-rxg9-jmrx
+golang.org/x/crypto,0.48.0,GHSA-q4h4-gmj2-qvw2,HIGH,CVE-2026-46597,golang.org/x/crypto: Invoking byte arithmetic causes underflow and panic,0.52.0,GHSA-q4h4-gmj2-qvw2
+golang.org/x/crypto,0.48.0,GHSA-qpw4-5x99-6vjp,MODERATE,CVE-2026-39827,golang.org/x/crypto: Invoking memory leak when rejecting channels can lead to DoS,0.52.0,GHSA-qpw4-5x99-6vjp
+golang.org/x/crypto,0.48.0,GHSA-rm3j-f69w-wqmq,CRITICAL,CVE-2026-39834,golang.org/x/crypto vulnerable to infinite loop on large channel writes,0.52.0,GHSA-rm3j-f69w-wqmq
+golang.org/x/crypto,0.48.0,GHSA-vgwf-h737-ff37,CRITICAL,CVE-2026-39830,golang.org/x/crypto: Invoking client can cause server deadlock on unexpected responses,0.52.0,GHSA-vgwf-h737-ff37
+golang.org/x/crypto,0.48.0,GHSA-w879-237q-wc7r,HIGH,CVE-2026-39829,golang.org/x/crypto: Invoking pathological RSA/DSA parameters may cause DoS,0.52.0,GHSA-w879-237q-wc7r
+golang.org/x/crypto,0.48.0,GHSA-x527-x647-q7gg,CRITICAL,CVE-2026-46595,golang.org/x/crypto: Invoking VerifiedPublicKeyCallback permissions skip enforcement,0.52.0,GHSA-x527-x647-q7gg
+golang.org/x/crypto,0.48.0,GO-2026-5005,UNRATED,CVE-2026-39833,Invoking key constraints not enforced in golang.org/x/crypto/ssh/agent,0.52.0,GHSA-jppx-rxg9-jmrx
+golang.org/x/crypto,0.48.0,GO-2026-5006,UNRATED,CVE-2026-39832,Invoking agent constraints dropped when forwarding keys in golang.org/x/crypto/ssh/agent,0.52.0,GHSA-f5wc-c3c7-36mc
+golang.org/x/crypto,0.48.0,GO-2026-5013,UNRATED,CVE-2026-46597,Invoking byte arithmetic causes underflow and panic in golang.org/x/crypto/ssh,0.52.0,GHSA-q4h4-gmj2-qvw2
+golang.org/x/crypto,0.48.0,GO-2026-5014,UNRATED,CVE-2026-39828,Invoking bypass of certificate restrictions in golang.org/x/crypto/ssh,0.52.0,GHSA-45gg-vh54-h5m9
+golang.org/x/crypto,0.48.0,GO-2026-5015,UNRATED,CVE-2026-39835,Invoking server panic during CheckHostKey/Authenticate in golang.org/x/crypto/ssh,0.52.0,GHSA-78mq-xcr3-xm33
+golang.org/x/crypto,0.48.0,GO-2026-5016,UNRATED,CVE-2026-39827,Invoking memory leak when rejecting channels can lead to DoS in golang.org/x/crypto/ssh,0.52.0,GHSA-qpw4-5x99-6vjp
+golang.org/x/crypto,0.48.0,GO-2026-5017,UNRATED,CVE-2026-39830,Invoking client can cause server deadlock on unexpected responses in golang.org/x/crypto/ssh,0.52.0,GHSA-vgwf-h737-ff37
+golang.org/x/crypto,0.48.0,GO-2026-5018,UNRATED,CVE-2026-39829,Invoking pathological RSA/DSA parameters may cause DoS in golang.org/x/crypto/ssh,0.52.0,GHSA-w879-237q-wc7r
+golang.org/x/crypto,0.48.0,GO-2026-5019,UNRATED,CVE-2026-39831,Invoking bypass of FIDO/U2F security keys physical interaction in golang.org/x/crypto/ssh,0.52.0,GHSA-89gr-r52h-f8rx
+golang.org/x/crypto,0.48.0,GO-2026-5020,UNRATED,CVE-2026-39834,Invoking infinite loop on large channel writes in golang.org/x/crypto/ssh,0.52.0,GHSA-rm3j-f69w-wqmq
+golang.org/x/crypto,0.48.0,GO-2026-5021,UNRATED,CVE-2026-42508,Invoking auth bypass via unenforced @revoked status in golang.org/x/crypto/ssh/knownhosts,0.52.0,GHSA-5cgq-3rg8-m6cv
+golang.org/x/crypto,0.48.0,GO-2026-5023,UNRATED,CVE-2026-46595,Invoking VerifiedPublicKeyCallback permissions skip enforcement in golang.org/x/crypto/ssh,0.52.0,GHSA-x527-x647-q7gg
+golang.org/x/crypto,0.48.0,GO-2026-5033,UNRATED,CVE-2026-46598,Invoking pathological inputs can lead to client panic in golang.org/x/crypto/ssh/agent,0.52.0,GHSA-9m57-25v3-79x9
+golang.org/x/crypto,0.48.0,GO-2026-5932,UNRATED,,"The golang.org/x/crypto/openpgp package is unmaintained, unsafe by design, and has known security issues",,GO-2026-5932
+golang.org/x/crypto,0.48.0,GO-2026-6303,UNRATED,CVE-2026-56854,Source-address critical option not enforced for non-public-key auth callbacks in golang.org/x/crypto/ssh,0.55.0,GO-2026-6303
+golang.org/x/crypto,0.48.0,GO-2026-6354,UNRATED,CVE-2026-78662,Prevent DoS on deadlocked undecided channel in golang.org/x/crypto/ssh,0.56.0,GO-2026-6354
+golang.org/x/crypto,0.48.0,GO-2026-6355,UNRATED,CVE-2026-56855,Prevent DoS on deadlocked established channel in golang.org/x/crypto/ssh,0.56.0,GO-2026-6355
+golang.org/x/mod,0.32.0,GO-2026-6179,UNRATED,CVE-2026-56865,Fix transparency log tile verification bypass in golang.org/x/mod/sumdb/tlog,0.40.0,GO-2026-6179
+golang.org/x/mod,0.32.0,GO-2026-6180,UNRATED,CVE-2026-56864,"Ignore unrelated, unauthenticated hashes in Lookup in golang.org/x/mod/sumdb",0.40.0,GO-2026-6180
+golang.org/x/net,0.49.0,GHSA-5cv4-jp36-h3mw,MODERATE,CVE-2026-25680,Go Net HTML parser is vulnerable to denial of service,0.55.0,GHSA-5cv4-jp36-h3mw
+golang.org/x/net,0.49.0,GO-2026-4918,UNRATED,CVE-2026-33814,Infinite loop in HTTP/2 transport when given bad SETTINGS_MAX_FRAME_SIZE in net/http/internal/http2 in golang.,0.53.0,GO-2026-4918
+golang.org/x/net,0.49.0,GO-2026-5025,UNRATED,CVE-2026-42506,Invoking incorrect handling of namespaced elements in foreign content in golang.org/x/net/html,0.55.0,GO-2026-5025
+golang.org/x/net,0.49.0,GO-2026-5026,UNRATED,CVE-2026-39821,Invoking failure to reject ASCII-only Punycode-encoded labels in golang.org/x/net/idna,0.55.0,GO-2026-5026
+golang.org/x/net,0.49.0,GO-2026-5027,UNRATED,CVE-2026-42502,Invoking incorrect handling of HTML elements in foreign content in golang.org/x/net/html,0.55.0,GO-2026-5027
+golang.org/x/net,0.49.0,GO-2026-5028,UNRATED,CVE-2026-25680,Invoking denial of service when parsing arbitrary HTML in golang.org/x/net/html,0.55.0,GHSA-5cv4-jp36-h3mw
+golang.org/x/net,0.49.0,GO-2026-5029,UNRATED,CVE-2026-25681,Invoking incorrect handling of character references in DOCTYPE nodes in golang.org/x/net/html,0.55.0,GO-2026-5029
+golang.org/x/net,0.49.0,GO-2026-5030,UNRATED,CVE-2026-27136,Invoking duplicate attributes can cause XSS in golang.org/x/net/html,0.55.0,GO-2026-5030
+golang.org/x/net,0.49.0,GO-2026-5942,UNRATED,CVE-2026-46600,Parsing an invalid SVCB or HTTPS RR can panic in golang.org/x/net/dns/dnsmessage,0.56.0,GO-2026-5942
+golang.org/x/net,0.49.0,GO-2026-6603,UNRATED,CVE-2026-78659,HTTP/2 server memory exhaustion due to Trailer headers in net/http,0.60.0,GO-2026-6603
+golang.org/x/net,0.49.0,GO-2026-6610,UNRATED,CVE-2026-78660,HTTP/2 transport accepts malformed framing-related headers in net/http,0.60.0,GO-2026-6610
+golang.org/x/net,0.49.0,GO-2026-6611,UNRATED,CVE-2026-78669,Excessive CPU consumption from repeated initial window changes in net/http,0.60.0,GO-2026-6611
+golang.org/x/net,0.49.0,GO-2026-6612,UNRATED,CVE-2026-78663,Double flow control refund on HTTP/2 server streams in net/http,0.60.0,GO-2026-6612
+golang.org/x/net,0.49.0,GO-2026-6617,UNRATED,CVE-2026-97032,HTTP/2 server crash due to HPACK encoder race in net/http,0.60.0,GO-2026-6617
+golang.org/x/sys,0.41.0,GO-2026-5024,UNRATED,CVE-2026-39824,Invoking integer overflow in NewNTUnicodeString in golang.org/x/sys/windows,0.44.0,GO-2026-5024
+golang.org/x/text,0.34.0,GO-2026-5970,UNRATED,CVE-2026-56852,Infinite loop on invalid input in golang.org/x/text,0.39.0,GO-2026-5970
+golang.org/x/text,0.34.0,GO-2026-6629,UNRATED,CVE-2026-56851,Panic parsing crafted input in x/text/secure/precis in golang.org/x/text,0.41.0,GO-2026-6629
+google.golang.org/grpc,1.78.0,GHSA-2v4p-qf9q-27wj,HIGH,CVE-2026-84445,gRPC-Go xDS servers: Denial of Service (DoS) via crash due to missing `:authority` and `Host` headers,1.82.2;1.83.2;1.84.0-dev.0.20260825144003-d5a41119e0e3;1.85.,GHSA-2v4p-qf9q-27wj
+google.golang.org/grpc,1.78.0,GHSA-hrxh-6v49-42gf,HIGH,,gRPC-Go: xDS RBAC and HTTP/2 Vulnerabilities,1.82.1,GHSA-hrxh-6v49-42gf
+google.golang.org/grpc,1.78.0,GHSA-p77j-4mvh-x3m3,CRITICAL,CVE-2026-33186,gRPC-Go has an authorization bypass via missing leading slash in :path,1.79.3,GHSA-p77j-4mvh-x3m3
+google.golang.org/grpc,1.78.0,GHSA-qc2q-p7wx-3px3,MODERATE,CVE-2026-84303,gRPC-Go: xDS RBAC HTTP Filter bypass via mixed-case Header Matching and gRFC A41 validation evasion,1.83.1,GHSA-qc2q-p7wx-3px3
+google.golang.org/grpc,1.78.0,GHSA-vp52-pcj8-j9qc,HIGH,CVE-2026-84304,gRPC-Go: Heap Memory Exhaustion (OOM) via HTTP/2 DATA Frame Fragmentation,1.83.1,GHSA-vp52-pcj8-j9qc
+google.golang.org/grpc,1.78.0,GO-2026-4762,UNRATED,CVE-2026-33186,Authorization bypass in gRPC-Go via missing leading slash in :path in google.golang.org/grpc,1.79.3,GHSA-p77j-4mvh-x3m3
+google.golang.org/grpc,1.78.0,GO-2026-6061,UNRATED,,Vulnerabilities in the xDS RBAC authorization engine and the HTTP/2 transport server implementation in google.,1.82.1,GHSA-hrxh-6v49-42gf
+google.golang.org/grpc,1.78.0,GO-2026-6348,UNRATED,CVE-2026-84304,Heap Memory Exhaustion (OOM) via HTTP/2 DATA Frame Fragmentation in google.golang.org/grpc,1.83.1,GHSA-vp52-pcj8-j9qc
+google.golang.org/grpc,1.78.0,GO-2026-6441,UNRATED,CVE-2026-84303,Bypass of xDS RBAC HTTP filter header matching in google.golang.org/grpc,1.83.1,GHSA-qc2q-p7wx-3px3
+google.golang.org/grpc,1.78.0,GO-2026-6443,UNRATED,CVE-2026-84445,Server panic via missing authority or Host headers in google.golang.org/grpc,1.82.2;1.83.2;1.84.0-dev.0.20260825144003-d5a41119e0e3;1.85.,GHSA-2v4p-qf9q-27wj
+stdlib,1.26.0,GO-2026-4599,UNRATED,CVE-2026-27137,Incorrect enforcement of email constraints in crypto/x509,1.26.1,GO-2026-4599
+stdlib,1.26.0,GO-2026-4600,UNRATED,CVE-2026-27138,Panic in name constraint checking for malformed certificates in crypto/x509,1.26.1,GO-2026-4600
+stdlib,1.26.0,GO-2026-4601,UNRATED,CVE-2026-25679,Incorrect parsing of IPv6 host literals in net/url,1.25.8;1.26.1,GO-2026-4601
+stdlib,1.26.0,GO-2026-4602,UNRATED,CVE-2026-27139,FileInfo can escape from a Root in os,1.25.8;1.26.1,GO-2026-4602
+stdlib,1.26.0,GO-2026-4603,UNRATED,CVE-2026-27142,URLs in meta content attribute actions are not escaped in html/template,1.25.8;1.26.1,GO-2026-4603
+stdlib,1.26.0,GO-2026-4864,UNRATED,CVE-2026-32282,TOCTOU permits root escape on Linux via Root.Chmod in os in internal/syscall/unix,1.25.9;1.26.2,GO-2026-4864
+stdlib,1.26.0,GO-2026-4865,UNRATED,CVE-2026-32289,JsBraceDepth Context Tracking Bugs (XSS) in html/template,1.25.9;1.26.2,GO-2026-4865
+stdlib,1.26.0,GO-2026-4866,UNRATED,CVE-2026-33810,Case-sensitive excludedSubtrees name constraints cause Auth Bypass in crypto/x509,1.26.2,GO-2026-4866
+stdlib,1.26.0,GO-2026-4869,UNRATED,CVE-2026-32288,Unbounded allocation for old GNU sparse in archive/tar,1.25.9;1.26.2,GO-2026-4869
+stdlib,1.26.0,GO-2026-4870,UNRATED,CVE-2026-32283,Unauthenticated TLS 1.3 KeyUpdate record can cause persistent connection retention and DoS in crypto/tls,1.25.9;1.26.2,GO-2026-4870
+stdlib,1.26.0,GO-2026-4918,UNRATED,CVE-2026-33814,Infinite loop in HTTP/2 transport when given bad SETTINGS_MAX_FRAME_SIZE in net/http/internal/http2 in golang.,1.25.10;1.26.3,GO-2026-4918
+stdlib,1.26.0,GO-2026-4946,UNRATED,CVE-2026-32281,Inefficient policy validation in crypto/x509,1.25.9;1.26.2,GO-2026-4946
+stdlib,1.26.0,GO-2026-4947,UNRATED,CVE-2026-32280,Unexpected work during chain building in crypto/x509,1.25.9;1.26.2,GO-2026-4947
+stdlib,1.26.0,GO-2026-4970,UNRATED,CVE-2026-39822,Root escape via symlink plus trailing slash in os,1.25.12;1.26.5;1.27.0-rc.2,GO-2026-4970
+stdlib,1.26.0,GO-2026-4971,UNRATED,CVE-2026-39836,Panic in Dial and LookupPort when handling NUL byte on Windows in net,1.25.10;1.26.3,GO-2026-4971
+stdlib,1.26.0,GO-2026-4976,UNRATED,CVE-2026-39825,ReverseProxy forwards queries with more than urlmaxqueryparams parameters in net/http/httputil,1.25.10;1.26.3,GO-2026-4976
+stdlib,1.26.0,GO-2026-4977,UNRATED,CVE-2026-42499,Quadratic string concatenation in consumePhrase in net/mail,1.25.10;1.26.3,GO-2026-4977
+stdlib,1.26.0,GO-2026-4980,UNRATED,CVE-2026-39826,Escaper bypass leads to XSS in html/template,1.25.10;1.26.3,GO-2026-4980
+stdlib,1.26.0,GO-2026-4981,UNRATED,CVE-2026-33811,Crash when handling long CNAME response in net,1.25.10;1.26.3,GO-2026-4981
+stdlib,1.26.0,GO-2026-4982,UNRATED,CVE-2026-39823,Bypass of meta content URL escaping causes XSS in html/template,1.25.10;1.26.3,GO-2026-4982
+stdlib,1.26.0,GO-2026-4986,UNRATED,CVE-2026-39820,Quadratic string concatentation in consumeComment in net/mail,1.25.10;1.26.3,GO-2026-4986
+stdlib,1.26.0,GO-2026-5026,UNRATED,CVE-2026-39821,Invoking failure to reject ASCII-only Punycode-encoded labels in golang.org/x/net/idna,1.25.13;1.26.6;1.27.0-rc.3,GO-2026-5026
+stdlib,1.26.0,GO-2026-5037,UNRATED,CVE-2026-27145,Inefficient candidate hostname parsing in crypto/x509,1.25.11;1.26.4,GO-2026-5037
+stdlib,1.26.0,GO-2026-5038,UNRATED,CVE-2026-42504,Quadratic complexity in WordDecoder.DecodeHeader in mime,1.25.11;1.26.4,GO-2026-5038
+stdlib,1.26.0,GO-2026-5039,UNRATED,CVE-2026-42507,Arbitrary inputs are included in errors without any escaping in net/textproto,1.25.11;1.26.4,GO-2026-5039
+stdlib,1.26.0,GO-2026-5856,UNRATED,CVE-2026-42505,Invoking Encrypted Client Hello privacy leak in crypto/tls,1.25.12;1.26.5;1.27.0-rc.2,GO-2026-5856
+stdlib,1.26.0,GO-2026-5942,UNRATED,CVE-2026-46600,Parsing an invalid SVCB or HTTPS RR can panic in golang.org/x/net/dns/dnsmessage,1.26.6;1.27.0-rc.3,GO-2026-5942
+stdlib,1.26.0,GO-2026-5972,UNRATED,CVE-2026-33818,Enforce maximum recursion depth in encoding/asn1,1.25.13;1.26.6;1.27.0-rc.3,GO-2026-5972
+stdlib,1.26.0,GO-2026-6088,UNRATED,CVE-2026-56859,Add recursion depth guard during decode in encoding/xml,1.25.13;1.26.6;1.27.0-rc.3,GO-2026-6088
+stdlib,1.26.0,GO-2026-6089,UNRATED,CVE-2026-56853,Apply ReadHeaderTimeout when doing unencrypted HTTP/2 check in net/http,1.25.13;1.26.6;1.27.0-rc.3,GO-2026-6089
+stdlib,1.26.0,GO-2026-6090,UNRATED,CVE-2026-56862,Limit handshake messages we are willing to accept post-handshake in crypto/tls,1.25.13;1.26.6;1.27.0-rc.3,GO-2026-6090
+stdlib,1.26.0,GO-2026-6091,UNRATED,CVE-2026-56858,Fix Javascript regexp context tracking in html/template,1.25.13;1.26.6;1.27.0-rc.3,GO-2026-6091
+stdlib,1.26.0,GO-2026-6218,UNRATED,CVE-2026-56860,Avoid quadratic complexity in resolvePath in net/url,1.25.13;1.26.6;1.27.0-rc.3,GO-2026-6218
+stdlib,1.26.0,GO-2026-6599,UNRATED,CVE-2026-94448,Reset context tracking on consecutive template expressions in html/template,1.26.9;1.27.2,GO-2026-6599
+stdlib,1.26.0,GO-2026-6600,UNRATED,CVE-2026-97030,Recognize yield as regexp preceder keyword in html/template,1.26.9;1.27.2,GO-2026-6600
+stdlib,1.26.0,GO-2026-6603,UNRATED,CVE-2026-78659,HTTP/2 server memory exhaustion due to Trailer headers in net/http,1.26.9;1.27.2,GO-2026-6603
+stdlib,1.26.0,GO-2026-6604,UNRATED,CVE-2026-56857,Root.Mkdir(All) can follow junctions out of the root on Windows in os,1.26.9;1.27.2,GO-2026-6604
+stdlib,1.26.0,GO-2026-6605,UNRATED,CVE-2026-56866,HTTP/1 client connection desynchronization after CONNECT rejection in net/http,1.26.9;1.27.2,GO-2026-6605
+stdlib,1.26.0,GO-2026-6607,UNRATED,CVE-2026-97031,Reject malformed ECH outer extension references in crypto/tls,1.26.9;1.27.2,GO-2026-6607
+stdlib,1.26.0,GO-2026-6608,UNRATED,CVE-2026-94440,"Memory limit bypass when parsing MIME headers in net/textproto, mime/multipart",1.26.9;1.27.2,GO-2026-6608
+stdlib,1.26.0,GO-2026-6609,UNRATED,CVE-2026-78667,Lack of limit on size of parsed Range headers in net/http,1.26.9;1.27.2,GO-2026-6609
+stdlib,1.26.0,GO-2026-6610,UNRATED,CVE-2026-78660,HTTP/2 transport accepts malformed framing-related headers in net/http,1.26.9;1.27.2,GO-2026-6610
+stdlib,1.26.0,GO-2026-6611,UNRATED,CVE-2026-78669,Excessive CPU consumption from repeated initial window changes in net/http,1.26.9;1.27.2,GO-2026-6611
+stdlib,1.26.0,GO-2026-6612,UNRATED,CVE-2026-78663,Double flow control refund on HTTP/2 server streams in net/http,1.26.9;1.27.2,GO-2026-6612
+stdlib,1.26.0,GO-2026-6613,UNRATED,CVE-2026-94439,HTTP/1 server connection desynchronization after 2xx CONNECT response in net/http,1.26.9;1.27.2,GO-2026-6613
+stdlib,1.26.0,GO-2026-6617,UNRATED,CVE-2026-97032,HTTP/2 server crash due to HPACK encoder race in net/http,1.26.9;1.27.2,GO-2026-6617
