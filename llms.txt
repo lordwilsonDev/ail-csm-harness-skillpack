@@ -1,0 +1,12 @@
+# AIL CSM Harness
+
+> A free 20-step evidence-gated check an AI runs on its own work before handing over a deliverable, plus the leanrea software-analysis skill (third party, MIT). Plain text, nothing to install.
+
+Read in this order:
+- [README](README.md): what it is, how to start, what you need.
+- [AGENTS.md](AGENTS.md): rules for agents.
+- [00-meta-skill.md](00-meta-skill.md): runs the chain and defines release gates.
+- Steps 01 to 20: `01-intake-contract.md` through `20-final-synthesis-release-gate.md`.
+- [extras/leanrea/SKILL.md](extras/leanrea/SKILL.md): analyze software you own or may analyze.
+- [worked-examples/](worked-examples): four real runs.
+- Lab (SOPs, KPIs, more skills): https://github.com/lordwilsonDev/blackswanlabz-research-lab
